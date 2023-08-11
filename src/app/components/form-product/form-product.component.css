@@ -1,0 +1,21 @@
+.form-auth,
+.form-product {
+  max-width: 50%;
+  border: 1px dotted;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form-auth .field,
+.form-product .field {
+  display: flex;
+  flex-direction: column;
+  margin: 0.3rem 0;
+}
+
+.form .input-field {
+  padding: 0.4rem;
+}   
